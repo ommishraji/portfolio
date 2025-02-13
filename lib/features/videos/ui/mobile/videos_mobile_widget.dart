@@ -88,7 +88,7 @@ class _ReposMobileWidgetState extends State<ReposMobileWidget> {
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(8),
                   image: DecorationImage(
-                      image: NetworkImage(imageUrl), fit: BoxFit.cover)
+                      image: NetworkImage(imageUrl), fit: BoxFit.contain)
               ),
             ),
             Text(title)
