@@ -1,0 +1,15 @@
+Map<String, String> techStackImages = {
+  'Flutter': 'assets/icons/flutter.svg',
+  'Dart': 'assets/icons/dart.png',
+  'Java': 'assets/icons/java.png',
+  'Firebase': 'assets/icons/firebase.svg',
+  'Git': 'assets/icons/git.png',
+  'Github': 'assets/icons/github.png',
+  'Postman': 'assets/icons/postman.png',
+  'OpenAI': 'assets/icons/openAI.png',
+  'Googlecloud': 'assets/icons/googlecloud.png',
+  'Agora': 'assets/icons/agora.png',
+  'Block': 'assets/icons/block.svg',
+  'C': 'assets/icons/c.png',
+  'Lottie': 'assets/icons/lottie.png',
+};
