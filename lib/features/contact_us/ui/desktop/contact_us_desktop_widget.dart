@@ -77,7 +77,7 @@ class ContactUsDesktopWidget extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('Coded with 💚 in India'),
+              Text('Coded with ♥️ in India'),
             ],
           ),
         )
