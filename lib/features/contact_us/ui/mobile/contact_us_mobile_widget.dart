@@ -37,9 +37,15 @@ class _ContactUsMobileWidgetState extends State<ContactUsMobileWidget> {
         const Text(
             "If want to hire me for mobile app development, website development, or just want to chat, drop your mail at 👇"),
         const SizedBox(height: 8),
-        Text(
-          'ommishrapk@gmail.com',
-          style: TextStyle(color: AppColors.purple),
+        GestureDetector(
+          onTap: () => openEmail(),
+          child: Text(
+            'ommishrapk@gmail.com',
+            style: TextStyle(color: AppColors.purple,
+                decoration: TextDecoration.underline,
+                decorationColor: AppColors.purple,
+                decorationThickness: 2),
+          ),
         ),
         const SizedBox(height: 20),
         SizedBox(
