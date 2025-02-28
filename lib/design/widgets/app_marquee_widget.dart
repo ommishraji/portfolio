@@ -70,7 +70,7 @@ class _RichTextMarqueeState extends State<RichTextMarquee> {
           physics: const NeverScrollableScrollPhysics(),
           child: Padding(
             padding: widget.padding,
-            child: Container(
+            child: SizedBox(
               width: _containerWidth,
               child: GestureDetector(
                 behavior: HitTestBehavior.translucent,
